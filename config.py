@@ -1,6 +1,3 @@
-
-
-
 API_ID =  # https://my.telegram.org
 API_HASH = "your_api_hash_here"# https://my.telegram.org
 BOT_TOKEN = "your_bot_token_here" # Get this from @BotFather on Telegram
@@ -32,6 +29,7 @@ FSUB_CHANNEL_2 = 0 # Set to 0 if not used
 FSUB_CHANNEL_3 = 0 # Set to 0 if not used
 
 OWNER_ID = 
+
 
 
 

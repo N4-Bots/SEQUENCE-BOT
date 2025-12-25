@@ -3,7 +3,7 @@ from config import MONGO_URI
 
 # Database connection
 mongo_client = MongoClient(MONGO_URI)
-db = mongo_client["sequence_bot"]
+db = mongo_client["N4_Bots"]
 users_collection = db["users_sequence"]
 
 # Data storage (global variables)

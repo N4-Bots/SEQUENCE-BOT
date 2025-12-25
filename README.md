@@ -257,7 +257,9 @@ The **Sequence Bot** is a specialized tool designed to organize and sequence med
 | BOT_TOKEN | Bot token from @BotFather |
 | MONGO_URI | MongoDB connection URI |
 | OWNER_ID | Telegram user ID of the bot owner |
-| FSUB_CHANNEL | Force subscribe channel ID (0 to disa## 🧾 COMMANDS LIST
+| FSUB_CHANNEL | Force subscribe channel ID |
+
+## 🧾 COMMANDS LIST
 
 👤 User Commands:
 ```

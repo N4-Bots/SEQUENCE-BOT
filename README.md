@@ -273,10 +273,6 @@ The **Sequence Bot** is a specialized tool designed to organize and sequence med
 /status - Bot uptime, ping, users
 /broadcast - Send message to all users
 ```
----ble) |
-| FSUB_CHANNEL_2 | Second force subscribe channel (optional) |
-| FSUB_CHANNEL_3 | Third force subscribe channel (optional) |
-
 <details>
 <summary><b>View Configuration Template</b></summary>
 

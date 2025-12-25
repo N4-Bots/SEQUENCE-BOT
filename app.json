@@ -1,0 +1,46 @@
+{
+    "name": "TG File Sequence Bot",
+    "description": "File Sequence Bot can sequence your all files",
+    "logo": "https://ibb.co/VcSBj94S",
+    "keywords": [
+      "telegram",
+      "file",
+      "Sequence"
+    ],
+    "owner": "https://github.com/Sahil0976",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Your Bot token, Get it from @Botfather",
+        "value": ""
+      },
+      "API_ID": {
+        "description": "Your app ID, take it from my.telegram.org",
+        "value": ""
+      },
+      "API_HASH": {
+        "description": "Your API hash, take it from my.telegram.org",
+        "value": ""
+      },
+      "MONGO_URI": {
+        "description": "Paste your MongoDB URL",
+        "value": ""
+      },
+      "OWNER_ID": {
+        "description": "Add Owner ID",
+        "value": ""
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "basic"
+      }
+    }
+
+  }
+
